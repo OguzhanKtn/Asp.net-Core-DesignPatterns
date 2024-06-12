@@ -9,47 +9,55 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DesignPattern.CQRS
 build_property.RootNamespace = DesignPattern.CQRS
-build_property.ProjectDir = C:\Users\Oğuzhan\source\repos\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\
+build_property.ProjectDir = C:\GitHub\Asp.net-Core-DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Oğuzhan\source\repos\DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS
+build_property.MSBuildProjectDirectory = C:\GitHub\Asp.net-Core-DesignPatterns\CQRSDesignPattern\DesignPattern.CQRS
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Oğuzhan/source/repos/DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Default/AddProduct.cshtml]
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Default/AddProduct.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxBZGRQcm9kdWN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/source/repos/DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Default/Index.cshtml]
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Default/GetProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxHZXRQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Default/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/source/repos/DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Home/Index.cshtml]
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Default/UpdateProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxVcGRhdGVQcm9kdWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/source/repos/DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Home/Privacy.cshtml]
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/source/repos/DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Shared/Error.cshtml]
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/source/repos/DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/source/repos/DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/_ViewImports.cshtml]
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/source/repos/DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/_ViewStart.cshtml]
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Oğuzhan/source/repos/DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Shared/_Layout.cshtml]
+[C:/GitHub/Asp.net-Core-DesignPatterns/CQRSDesignPattern/DesignPattern.CQRS/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-05xppefr1l

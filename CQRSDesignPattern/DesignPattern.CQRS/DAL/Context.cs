@@ -6,7 +6,7 @@ namespace DesignPattern.CQRS.DAL
     {
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server=DESKTOP-S5STNHF;initial catalog = DesignPattern2; integrated security = true; trustServerCertificate = true");
+            optionsBuilder.UseSqlServer("server=.;initial catalog = DesignPattern2; integrated security = true; trustServerCertificate = true");
         }
 
         public DbSet<Product> Products { get; set; } 

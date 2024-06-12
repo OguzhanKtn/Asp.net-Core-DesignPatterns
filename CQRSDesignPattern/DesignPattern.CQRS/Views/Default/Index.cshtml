@@ -21,6 +21,7 @@
                 <th>Price</th>
                 <th>Delete</th>
                 <th>Update</th>
+                <th>Bring Product</th>
             </thead>
             <tbody>
                 @foreach(var item in Model)
@@ -35,6 +36,9 @@
                         </td>
                         <td>
                             <a href="/Default/UpdateProduct/@item.ID" class="btn btn-warning btn-sm">Update</a>
+                        </td>
+                        <td>
+                            <a href="/Default/GetProduct/@item.ID" class="btn btn-dark btn-sm">Get</a>
                         </td>
                     </tr>
                 }

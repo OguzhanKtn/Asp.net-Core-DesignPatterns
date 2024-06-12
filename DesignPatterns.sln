@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ChainOfResponsibilityDesignPattern", "ChainOfResponsibilityDesignPattern", "{CFE394EE-7979-4B85-90F2-AEAE2DB9DE23}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPattern.ChainOfResponsibility", "ChainOfResponsibilityDesignPattern\DesignPattern.ChainOfResponsibility\DesignPattern.ChainOfResponsibility.csproj", "{730F0B7A-BF92-4525-B38B-44C23D66AB01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.ChainOfResponsibility", "ChainOfResponsibilityDesignPattern\DesignPattern.ChainOfResponsibility\DesignPattern.ChainOfResponsibility.csproj", "{730F0B7A-BF92-4525-B38B-44C23D66AB01}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPattern.CQRS", "CQRSDesignPattern\DesignPattern.CQRS\DesignPattern.CQRS.csproj", "{C3EAA0B5-D009-4A65-9A5A-06370571D2A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,6 +19,10 @@ Global
 		{730F0B7A-BF92-4525-B38B-44C23D66AB01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{730F0B7A-BF92-4525-B38B-44C23D66AB01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{730F0B7A-BF92-4525-B38B-44C23D66AB01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3EAA0B5-D009-4A65-9A5A-06370571D2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3EAA0B5-D009-4A65-9A5A-06370571D2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3EAA0B5-D009-4A65-9A5A-06370571D2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3EAA0B5-D009-4A65-9A5A-06370571D2A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

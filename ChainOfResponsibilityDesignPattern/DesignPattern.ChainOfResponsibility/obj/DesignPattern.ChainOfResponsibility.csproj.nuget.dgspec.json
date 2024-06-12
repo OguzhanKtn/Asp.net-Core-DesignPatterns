@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Oğuzhan\\source\\repos\\DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\DesignPattern.ChainOfResponsibility.csproj": {}
+    "C:\\GitHub\\Asp.net-Core-DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\DesignPattern.ChainOfResponsibility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Oğuzhan\\source\\repos\\DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\DesignPattern.ChainOfResponsibility.csproj": {
+    "C:\\GitHub\\Asp.net-Core-DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\DesignPattern.ChainOfResponsibility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Oğuzhan\\source\\repos\\DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\DesignPattern.ChainOfResponsibility.csproj",
+        "projectUniqueName": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\DesignPattern.ChainOfResponsibility.csproj",
         "projectName": "DesignPattern.ChainOfResponsibility",
-        "projectPath": "C:\\Users\\Oğuzhan\\source\\repos\\DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\DesignPattern.ChainOfResponsibility.csproj",
-        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Oğuzhan\\source\\repos\\DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\obj\\",
+        "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\DesignPattern.ChainOfResponsibility.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\ChainOfResponsibilityDesignPattern\\DesignPattern.ChainOfResponsibility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -76,24 +76,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[6.0.25, 6.0.25]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
