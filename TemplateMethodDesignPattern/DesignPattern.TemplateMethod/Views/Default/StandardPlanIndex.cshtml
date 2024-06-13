@@ -1,0 +1,17 @@
+﻿
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<div class="container">
+    <br />
+    <h3>Plan adı : @ViewBag.v1</h3>
+    <h3>Kişi sayısı : @ViewBag.v2</h3>
+    <h3>Plan fiyatı : @ViewBag.v3</h3>
+    <h3>Plan içeriği : @ViewBag.v4</h3>
+    <h3>Plan çözünürlüğü : @ViewBag.v5</h3>
+    <a href="/Default/BasicPlanIndex" class="btn btn-danger">Temel Plan</a>
+    <a href="/Default/UltraPlanIndex" class="btn btn-success">Ultra Plan</a>
+</div>
