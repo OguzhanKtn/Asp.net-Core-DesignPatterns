@@ -1,0 +1,15 @@
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\bin\Debug\net6.0\DesignPattern.BusinessLayer.deps.json
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\bin\Debug\net6.0\DesignPattern.BusinessLayer.runtimeconfig.json
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\bin\Debug\net6.0\DesignPattern.BusinessLayer.dll
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\bin\Debug\net6.0\DesignPattern.BusinessLayer.pdb
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.csproj.AssemblyReference.cache
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.AssemblyInfoInputs.cache
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.AssemblyInfo.cs
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.csproj.CoreCompileInputs.cache
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.sourcelink.json
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.dll
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\refint\DesignPattern.BusinessLayer.dll
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.pdb
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.genruntimeconfig.cache
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\ref\DesignPattern.BusinessLayer.dll

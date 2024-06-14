@@ -15,4 +15,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPattern.EntityLayer\DesignPattern.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>

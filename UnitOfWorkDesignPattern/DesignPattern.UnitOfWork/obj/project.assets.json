@@ -779,6 +779,49 @@
             "rid": "win"
           }
         }
+      },
+      "DesignPattern.BusinessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesignPattern.BusinessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesignPattern.BusinessLayer.dll": {}
+        }
+      },
+      "DesignPattern.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DesignPattern.EntityLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesignPattern.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesignPattern.DataAccessLayer.dll": {}
+        }
+      },
+      "DesignPattern.EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesignPattern.EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesignPattern.EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -1998,29 +2041,47 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DesignPattern.BusinessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DesignPattern.BusinessLayer/DesignPattern.BusinessLayer.csproj",
+      "msbuildProject": "../DesignPattern.BusinessLayer/DesignPattern.BusinessLayer.csproj"
+    },
+    "DesignPattern.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DesignPattern.DataAccessLayer/DesignPattern.DataAccessLayer.csproj",
+      "msbuildProject": "../DesignPattern.DataAccessLayer/DesignPattern.DataAccessLayer.csproj"
+    },
+    "DesignPattern.EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../DesignPattern.EntityLayer/DesignPattern.EntityLayer.csproj",
+      "msbuildProject": "../DesignPattern.EntityLayer/DesignPattern.EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DesignPattern.BusinessLayer >= 1.0.0",
+      "DesignPattern.DataAccessLayer >= 1.0.0",
+      "DesignPattern.EntityLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Oğuzhan\\.nuget\\packages\\": {}
+    "C:\\Users\\DELL\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\UnitOfWorkDesignPattern\\DesignPattern.UnitOfWork\\DesignPattern.UnitOfWork.csproj",
+      "projectUniqueName": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.UnitOfWork\\DesignPattern.UnitOfWork.csproj",
       "projectName": "DesignPattern.UnitOfWork",
-      "projectPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\UnitOfWorkDesignPattern\\DesignPattern.UnitOfWork\\DesignPattern.UnitOfWork.csproj",
-      "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\UnitOfWorkDesignPattern\\DesignPattern.UnitOfWork\\obj\\",
+      "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.UnitOfWork\\DesignPattern.UnitOfWork.csproj",
+      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+      "outputPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.UnitOfWork\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2033,7 +2094,17 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.BusinessLayer\\DesignPattern.BusinessLayer.csproj": {
+              "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.BusinessLayer\\DesignPattern.BusinessLayer.csproj"
+            },
+            "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.DataAccessLayer\\DesignPattern.DataAccessLayer.csproj": {
+              "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.DataAccessLayer\\DesignPattern.DataAccessLayer.csproj"
+            },
+            "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj": {
+              "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -2072,24 +2143,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.25, 6.0.25]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

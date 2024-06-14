@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using DesignPattern.EntityLayer.Concrete;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,6 +14,7 @@ namespace DesignPattern.DataAccessLayer.Concrete
         { 
 
         }
-       
+       public DbSet<Customer> Customers { get; set; }
+       public DbSet<Process> Processs { get; set; }
     }
 }
