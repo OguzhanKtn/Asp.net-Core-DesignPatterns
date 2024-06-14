@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DesignPattern.ChainOfResponsibility")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3aa9b5aa3c5272fa01cd47e2e18d4a1a316ef152")]
 [assembly: System.Reflection.AssemblyProductAttribute("DesignPattern.ChainOfResponsibility")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DesignPattern.ChainOfResponsibility")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
