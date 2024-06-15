@@ -13,3 +13,8 @@ C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.Busi
 C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.pdb
 C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.genruntimeconfig.cache
 C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\ref\DesignPattern.BusinessLayer.dll
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\bin\Debug\net6.0\DesignPattern.DataAccessLayer.dll
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\bin\Debug\net6.0\DesignPattern.EntityLayer.dll
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\bin\Debug\net6.0\DesignPattern.DataAccessLayer.pdb
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\bin\Debug\net6.0\DesignPattern.EntityLayer.pdb
+C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.BusinessLayer\obj\Debug\net6.0\DesignPattern.BusinessLayer.csproj.CopyComplete

@@ -18,6 +18,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\GitHub\Asp.net-Core-DesignPatterns\UnitOfWorkDesignPattern\DesignPattern.UnitOfWork
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/GitHub/Asp.net-Core-DesignPatterns/UnitOfWorkDesignPattern/DesignPattern.UnitOfWork/Views/Default/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGVmYXVsdFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/GitHub/Asp.net-Core-DesignPatterns/UnitOfWorkDesignPattern/DesignPattern.UnitOfWork/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

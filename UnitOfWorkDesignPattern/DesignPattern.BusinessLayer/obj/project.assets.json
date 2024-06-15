@@ -779,6 +779,35 @@
             "rid": "win"
           }
         }
+      },
+      "DesignPattern.DataAccessLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "DesignPattern.EntityLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesignPattern.DataAccessLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesignPattern.DataAccessLayer.dll": {}
+        }
+      },
+      "DesignPattern.EntityLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DesignPattern.EntityLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DesignPattern.EntityLayer.dll": {}
+        }
       }
     }
   },
@@ -1998,10 +2027,22 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "DesignPattern.DataAccessLayer/1.0.0": {
+      "type": "project",
+      "path": "../DesignPattern.DataAccessLayer/DesignPattern.DataAccessLayer.csproj",
+      "msbuildProject": "../DesignPattern.DataAccessLayer/DesignPattern.DataAccessLayer.csproj"
+    },
+    "DesignPattern.EntityLayer/1.0.0": {
+      "type": "project",
+      "path": "../DesignPattern.EntityLayer/DesignPattern.EntityLayer.csproj",
+      "msbuildProject": "../DesignPattern.EntityLayer/DesignPattern.EntityLayer.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "DesignPattern.DataAccessLayer >= 1.0.0",
+      "DesignPattern.EntityLayer >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.0",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.0"
@@ -2033,7 +2074,14 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.DataAccessLayer\\DesignPattern.DataAccessLayer.csproj": {
+              "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.DataAccessLayer\\DesignPattern.DataAccessLayer.csproj"
+            },
+            "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj": {
+              "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

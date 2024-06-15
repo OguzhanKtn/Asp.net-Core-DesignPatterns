@@ -1,10 +1,19 @@
+using DesignPattern.BusinessLayer.Abstract;
+using DesignPattern.BusinessLayer.Concrete;
+using DesignPattern.DataAccessLayer.Abstract;
 using DesignPattern.DataAccessLayer.Concrete;
+using DesignPattern.DataAccessLayer.EntityFramework;
+using DesignPattern.DataAccessLayer.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddScoped<ICustomerDal, EfCustomerDal>();
+builder.Services.AddScoped<IProcessDal, EfProcessDal>();
+builder.Services.AddScoped<ICustomerService,CustomerManager>();
+builder.Services.AddScoped<IUnitOfWorkDal, UnitOfWorkDal>();
 
 builder.Services.AddDbContext<Context>(options =>
 {

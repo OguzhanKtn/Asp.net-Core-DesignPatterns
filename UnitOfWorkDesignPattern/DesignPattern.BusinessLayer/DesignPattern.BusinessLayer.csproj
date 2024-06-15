@@ -15,4 +15,9 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPattern.DataAccessLayer\DesignPattern.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\DesignPattern.EntityLayer\DesignPattern.EntityLayer.csproj" />
+  </ItemGroup>
+
 </Project>

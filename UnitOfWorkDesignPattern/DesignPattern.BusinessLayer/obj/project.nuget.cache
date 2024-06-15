@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "Ghw8Wp9T68CIYOmNQsbJEOFI9wXDDdp1FyOY4hb00yQHqfBplKjrU8Vl7b4up/AAD/M1IlFI18AUOX9iuQV7tQ==",
+  "dgSpecHash": "713NmSD+eZr2fMEeOV7y6afQdkY07Mw3yLSQ84ak2kD66xw2P0w+loKvtd0KEu1LvUE7pZyUZhWdv5NL2qYXIg==",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.BusinessLayer\\DesignPattern.BusinessLayer.csproj",
   "expectedPackageFiles": [

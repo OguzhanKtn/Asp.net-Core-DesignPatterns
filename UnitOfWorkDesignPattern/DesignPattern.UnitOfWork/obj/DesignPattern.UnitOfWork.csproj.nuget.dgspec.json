@@ -27,7 +27,14 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.DataAccessLayer\\DesignPattern.DataAccessLayer.csproj": {
+                "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.DataAccessLayer\\DesignPattern.DataAccessLayer.csproj"
+              },
+              "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj": {
+                "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -280,6 +287,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
             }
           },
           "imports": [
