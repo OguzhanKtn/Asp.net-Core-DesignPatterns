@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj": {}
+    "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj": {
+    "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj",
         "projectName": "DesignPattern.EntityLayer",
-        "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\DesignPattern.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\UnitOfWorkDesignPattern\\DesignPattern.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -66,6 +66,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.25, 6.0.25]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"

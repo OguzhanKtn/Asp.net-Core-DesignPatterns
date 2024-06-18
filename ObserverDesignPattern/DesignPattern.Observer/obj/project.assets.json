@@ -11484,19 +11484,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\DELL\\.nuget\\packages\\": {}
+    "C:\\Users\\Oğuzhan\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\ObserverDesignPattern\\DesignPattern.Observer\\DesignPattern.Observer.csproj",
+      "projectUniqueName": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\ObserverDesignPattern\\DesignPattern.Observer\\DesignPattern.Observer.csproj",
       "projectName": "DesignPattern.Observer",
-      "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\ObserverDesignPattern\\DesignPattern.Observer\\DesignPattern.Observer.csproj",
-      "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-      "outputPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\ObserverDesignPattern\\DesignPattern.Observer\\obj\\",
+      "projectPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\ObserverDesignPattern\\DesignPattern.Observer\\DesignPattern.Observer.csproj",
+      "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\ObserverDesignPattern\\DesignPattern.Observer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11560,6 +11560,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.25, 6.0.25]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"

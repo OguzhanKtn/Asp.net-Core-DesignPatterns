@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\GitHub\\Asp.net-Core-DesignPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\DesignPattern.Composite.csproj": {}
+    "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\DesignPattern.Composite.csproj": {}
   },
   "projects": {
-    "C:\\GitHub\\Asp.net-Core-DesignPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\DesignPattern.Composite.csproj": {
+    "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\DesignPattern.Composite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\DesignPattern.Composite.csproj",
+        "projectUniqueName": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\DesignPattern.Composite.csproj",
         "projectName": "DesignPattern.Composite",
-        "projectPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\DesignPattern.Composite.csproj",
-        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
-        "outputPath": "C:\\GitHub\\Asp.net-Core-DesignPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\obj\\",
+        "projectPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\DesignPattern.Composite.csproj",
+        "packagesPath": "C:\\Users\\Oğuzhan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Oğuzhan\\Documents\\GitHub\\Asp.netCore-DesinPatterns\\CompositeDesignPattern\\DesignPattern.Composite\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Oğuzhan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,6 +59,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[8.0.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
