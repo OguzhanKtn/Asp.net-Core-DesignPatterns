@@ -25,6 +25,12 @@ namespace DesignPattern.Composite.CompositePattern
         {
             var stringBuilder = new StringBuilder();
             stringBuilder.Append($"<div class='text-success'>{Name} ({TotalCount()})</div>");
+            stringBuilder.Append("<ul class='list-group list-group-flush ms-2'>");
+            foreach(var item in _components) 
+            { 
+                stringBuilder.Append(item.Display());
+            }
+            stringBuilder.Append("</ul>");
             return stringBuilder.ToString();
         }
 
