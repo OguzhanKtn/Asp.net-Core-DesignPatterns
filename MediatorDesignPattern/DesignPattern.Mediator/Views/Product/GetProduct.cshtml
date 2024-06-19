@@ -1,0 +1,25 @@
+﻿@using DesignPattern.Mediator.MediatorPattern.Results
+@model GetProductByIDQueryResult
+
+@{
+    Layout = null;
+}
+
+<link href="~/lib/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Product Name</th>
+            <th>Stock</th>
+        </tr>
+    </thead>
+    <tbody>      
+          <tr>
+             <td>@Model.ProductID</td>
+             <td>@Model.ProductName</td>
+             <td>@Model.ProductStock</td>
+          </tr>
+    </tbody>
+</table>
